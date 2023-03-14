@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:rider_app/route_generator.dart';
 import 'package:rider_app/screens/login/login_screen.dart';
 import 'package:rider_app/utils/app_string.dart';
 import 'package:rider_app/utils/constans.dart';
@@ -25,8 +26,12 @@ class MyApp extends StatelessWidget {
         return  GetMaterialApp(
           debugShowCheckedModeBanner: false,
           title: AppText.APP_NAME,
-          home:LoginScreen(),
           theme: _buildAppThemeData(),
+          onGenerateRoute: RouteGenerator.generateRoute,
+          initialRoute: '/',
+          routes: {
+            '/':(context)=> const LoginScreen(),
+          },
         );
       },
 

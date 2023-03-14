@@ -15,32 +15,7 @@ class RouteGenerator{
         return MaterialPageRoute(
           builder: (_) => LoginScreen(),
         );
-    //
-    //   case OnBoardScreen.routeName:
-    //     return MaterialPageRoute(
-    //       builder: (_) => OnBoardScreen(),
-    //     );
-    //
-    //
-    // case ForgotPasswordScreen.routeName:
-    //   return MaterialPageRoute(
-    //     builder: (_) => ForgotPasswordScreen(),
-    //   );
-    //
-    // case OTPScreen.routeName:
-    //   return MaterialPageRoute(
-    //     builder: (_) => OTPScreen(),
-    //   );
-    //
-    // case ResetPassScreen.routeName:
-    //   return MaterialPageRoute(
-    //     builder: (_) => ResetPassScreen(),
-    //   );
-    //
-    //   case SelectRideScreen.routeName:
-    //     return MaterialPageRoute(
-    //       builder: (_) => SelectRideScreen(),
-    //     );
+
 
       default:
         return _errorRoute();
