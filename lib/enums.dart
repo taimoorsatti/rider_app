@@ -1,1 +1,1 @@
-enum MenuState {oders,reports, wallet, profile }
+enum MenuState {oders,reports, wallet, profile}
