@@ -18,7 +18,7 @@ class CustomBottomNavBar extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 14),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Colors.red,
         boxShadow: [
           BoxShadow(
             offset: const Offset(0, -15),
