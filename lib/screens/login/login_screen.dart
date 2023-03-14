@@ -6,7 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:rider_app/screens/login/components/body.dart';
 
-import '../../controllers/login/controller.dart';
+import '../../controllers/login/login_controller.dart';
 import '../../widget/coustom_app_bar.dart';
 
 
