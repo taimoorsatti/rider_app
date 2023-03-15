@@ -18,7 +18,7 @@ class LoginScreen extends GetView<LoginController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _appBar,
-      body: const Body(),
+      body:  const Body(),
 
 
     );

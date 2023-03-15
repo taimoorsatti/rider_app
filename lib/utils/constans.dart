@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 abstract class Constants {
   /// app theme colors
 
-  static const Color colorPrimary = Color(0xffF57D26);
+  static const Color colorPrimary = Color(0xffFF6622);
   static const Color colorPrimaryVariant = Color(0xff3D3D3D);
   static const Color colorSecondary = Color(0xff979797);
   static const Color colorSecondaryVariant = Color(0xff262A34);
